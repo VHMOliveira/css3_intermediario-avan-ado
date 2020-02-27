@@ -1,0 +1,48 @@
+/*Aula de seletores*/
+/*seletor universal, ele seleciona todos os elementos da página*/
+*{
+    /*border: 1px solid red;*/
+}
+
+/*seletor de título*/
+h1{
+    /*color: green;*/
+}
+/*seletor de classe*/
+.verde{
+    color: green;
+}
+
+p.verde{
+    color: red;
+}
+
+/* seletor de id*/
+
+#cabecalho{
+    border: 1px solid blue;
+}
+
+/*seletor de filhos*/
+
+li>a{
+    color: red;
+    text-decoration: none;
+}
+
+/*seletor descendente*/
+
+p a{
+    color: tomato;
+    text-decoration: overline;
+}
+
+/*seletor de irmão adjacente*/
+h3+p{
+    color: green;
+}
+
+/*seletor de irmão geral*/
+h4~p{
+    color: red;
+}

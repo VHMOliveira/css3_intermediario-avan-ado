@@ -1,0 +1,24 @@
+/*Herança e especifidade*/
+
+body{
+    color: red;
+}
+
+/*especificidade*/
+/*sempre q tiver dois seletores iguais, sempre o mais específico e a última regra que será aplicada
+*/
+p{
+    color: blue;
+}
+
+p{
+    color: orange;
+}
+/*contudo se for utilizado o texto !important o atributo será mais importante que o outro*/
+
+h1{
+    color: blue !important;
+}
+h1{
+    color: brown;
+}
