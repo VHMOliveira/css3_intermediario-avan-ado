@@ -1,0 +1,47 @@
+/*Barra de navegação horizontal*/
+
+ul#navegacao{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+/*para criar barras horizontais pode utilizar o display inline, contudo tem uma maior chance de ter problemas nos browsers*/
+
+ul#navegacao li{
+    
+    float: left;
+}
+
+ul#navegacao a{
+    display: block;
+    padding: 0 2em;
+    /*serve para controlar o espaçamento superior*/
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+    background: url(../imagens/divisor.png) repeat-y;
+}
+
+ul#navegacao .primeiro a{
+    background: none;
+}
+
+ul#navegacao a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+/*para deixar o item marcado*/
+#navegacao .home a,
+#navegacao .servico a,
+#navegacao .lojas a
+#navegacao .contato a{
+    background-position: right bottom;
+    color: #085662;
+    background: #44cade;
+}
