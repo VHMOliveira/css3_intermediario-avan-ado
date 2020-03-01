@@ -19,6 +19,6 @@ Layout líquido; <br/>
 Imagens líquidas; <br/>
 Coluna falsa; <br/>
 Estilizando tabelas;<br/>
-Estilizaando formulários;<br/>
+Estilizaando formulários (formulário e interface de autêntificação);<br/>
 Arrendondamento com imagens; <br/>
 Fontes customizadas; <br/>
