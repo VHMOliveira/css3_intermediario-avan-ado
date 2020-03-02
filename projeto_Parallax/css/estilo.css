@@ -1,0 +1,78 @@
+/*
+Estilo parallax
+*/
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    /*ao colocar height 100% permite que a imagem ocupe 100%
+    da tela do usuário*/
+    height: 100%;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+/********
+Efeito parallax
+************/
+
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5{
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagem1{
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.imagem2{
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.imagem3{
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.imagem4{
+    background-image: url(../imagens/imagem4.jpg);
+}
+
+.imagem5{
+    background-image: url(../imagens/imagem5.jpg);
+}
+
+.conteudo-titulo{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    color: white;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}

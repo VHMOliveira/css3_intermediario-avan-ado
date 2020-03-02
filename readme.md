@@ -4,7 +4,7 @@ Projetos:<br/>
 
 - Site de Notícias;<br/>
 - Chalé Hotel;<br/>
-- Página usando técnica parallax;<br/>
+- Página usando técnica para gerar efeito parallax;<br/>
 
 Conteúdo sobre css:<br/>
 
