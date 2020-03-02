@@ -7,9 +7,15 @@
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     </head>
-    <body class="fotos">
+    <!--usa tres-colunas como demonstração,
+    contudo só é necessário quando  for colocar uma ou duas colunas
+    -->
+    <body id="uma-colunas" class="fotos">
        
+        <!--inicio do container-->
        <div id="container">
+        
+        <!--inicio do topo-->
         <div id="topo">
             <h1 class="logo">Notícias Cidade</h1>
             <ul id="navegacao">
@@ -19,8 +25,78 @@
                 <li><a id="fotos" href="fotos.html">Fotos</a></li>
             </ul>
         </div>
-       </div>
+        <!--fim do topo-->
+        
+        <!--inicio conteúdo-->
+        <div id="conteudo">
 
+            <!--inicio da coluna primária-->
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova Legislação</h3>
+                        <img class="imagem-principal" src="imagens/taxi.jpg" width="100%">
+                        <p>
+                            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                        </p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                       
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Generate Lorem Ipsum placeholder text.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Generate Lorem Ipsum placeholder text.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Generate Lorem Ipsum placeholder text.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Generate Lorem Ipsum placeholder text.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--fim da coluna primária-->
+
+
+        </div>
+        <!--fim do conteudo-->
+
+        </div>
+       <!--Final do container-->
+
+       <!--início rodapé-->
+       <div id="container-rodape" style="clear: both;">
+        <div id="rodape">
+            &copy; Copyright 2000-2018 Notícias Cidade
+        </div>
+        </div>
+        <!--fim do rodapé-->
     </body>
 
 </html>
@@ -31,4 +107,13 @@
 
     Nunca é uma boa prática esconder conteúdo do usuário,
     porque o robo de busca pode questionar
+-->
+
+<!--
+    Outra observação:
+
+    Sempre é bom trabalhar com imagens já com tamanho ajustado,
+    mesmo que seja ajustada em código para exibição, o tamanho de
+    carregamento contínua sendo o mesmo, ou seja,
+    ela será 300kb, independente do tamanho ajustado em código
 -->
